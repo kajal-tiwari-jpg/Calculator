@@ -39,8 +39,6 @@ def calculator():
 
         print(num1, operation_symbol, num2, "=", output)
 
-        #Asking uinputs from user
-
         should_continue=input("Enter 'x' to continue the previous calculation/ Enter 'y' to Perform new calculation/ Enter 'z' to EXIT ; ")
 
         if should_continue== 'x' or should_continue=='X':  
@@ -48,7 +46,7 @@ def calculator():
             num1=output  
 
         elif should_continue=='y' or should_continue=='Y':
-             
+            
              continue_flag==False
              os.system('cls')
              calculator()  
